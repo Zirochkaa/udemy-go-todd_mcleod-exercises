@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"ninjalevel12/exercise1/dog"
 )
 
 type canine struct {
@@ -10,7 +11,6 @@ type canine struct {
 }
 
 func main() {
-	// How to import `dog` package???
 	lusia := canine{name: "Lusia", age: dog.Years(2)}
 	fmt.Println(lusia)
 }

@@ -8,5 +8,5 @@
     ```
 1. Run docs:
     ```shell
-    godoc -http:8080
+    godoc -http=:8080
     ```
